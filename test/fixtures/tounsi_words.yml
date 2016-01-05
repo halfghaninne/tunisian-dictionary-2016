@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  singular: MyString
+  plural: MyString
+  alt_spellings: MyText
+  definition: MyText
+  examples: MyText
+
+two:
+  singular: MyString
+  plural: MyString
+  alt_spellings: MyText
+  definition: MyText
+  examples: MyText
