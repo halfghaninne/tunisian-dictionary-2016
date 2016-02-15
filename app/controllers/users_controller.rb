@@ -15,11 +15,12 @@ class UsersController < ApplicationController
   end
 
   def fetch
-    
-    redirect_to view_path
+
+    # redirect_to '/users/#{params[:username]'
   end
 
   def view
+    binding.pry
     @user = params[:username]
 
   end

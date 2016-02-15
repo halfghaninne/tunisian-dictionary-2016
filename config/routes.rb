@@ -1,10 +1,11 @@
 TunisianDictionary2016::Application.routes.draw do
   
+  get '/' => 'main#home'
+
   get '/users/login' => 'users#login'
 
-  post '/users' => 'users#fetch'
+  post '/users' => 'users#view'
 
-  get '/users/:username' => 'users#view', as: => :view
 
 
 
