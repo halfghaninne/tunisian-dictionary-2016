@@ -1,4 +1,13 @@
 TunisianDictionary2016::Application.routes.draw do
+  
+  get '/users/login' => 'users#login'
+
+  post '/users' => 'users#fetch'
+
+  get '/users/:username' => 'users#view', as: => :view
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
