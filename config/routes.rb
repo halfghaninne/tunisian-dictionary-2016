@@ -6,6 +6,11 @@ TunisianDictionary2016::Application.routes.draw do
 
   post '/users' => 'users#view'
 
+  ################# TERM SEARCH #################
+
+  post '/search' => 'searches#find'
+
+
 
 
 

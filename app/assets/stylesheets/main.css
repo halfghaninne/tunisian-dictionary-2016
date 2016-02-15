@@ -1,0 +1,20 @@
+body {
+  background: #E70013;
+  margin: 0;
+}
+
+p, div {
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+}
+
+#nav {
+  background: rgba(0,0,0,0.2);
+  width: 100%;
+  padding: 10px 10px;
+
+}
+
+.container {
+  padding: 10px 10px;
+}

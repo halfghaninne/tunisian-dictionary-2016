@@ -20,7 +20,6 @@ class UsersController < ApplicationController
   end
 
   def view
-    binding.pry
     @user = params[:username]
 
   end
